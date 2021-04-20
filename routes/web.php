@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/cos', function () {
+    return 'DZIALA';
+});
+
 Route::get('/cms', function () {
     return view('cms');
 });
