@@ -18,6 +18,10 @@ Route::group(['namespace' => 'Api', 'as' => 'api.'], function () {
 
     Route::post('login', 'LoginController@login')->name('login');
 
+    Route::get('cos', function () {
+        return "DZIALA API";
+    });
+
     Route::post('register', 'RegisterController@register')->name('register');
 
     Route::group(['middleware' => ['auth:api']], function () {
