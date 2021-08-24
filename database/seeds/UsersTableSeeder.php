@@ -18,12 +18,14 @@ class UsersTableSeeder extends Seeder
                 'password' => bcrypt('hasloadmin'),
                 'name' => 'admin',
                 'surname' => 'admin',
+                'birthdate' => '2000-12-12'
             ],
             [
                 'email'     => 'maciej@zbcc.pl',
                 'password' => bcrypt('haslomaciej'),
                 'name' => 'Maciej',
                 'surname' => 'Jarosław',
+                'birthdate' => '1999-12-21',
             ]
         ];
 
